@@ -1,0 +1,1 @@
+"The content provided is available pursuant to a license and may only be used by the learner in connection with this course.  Personal or other commercial use is strictly prohibited."

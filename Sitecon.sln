@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{AB619889-68B0-454D-8487-B70A1825642E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{1970D20D-2C5F-4B4C-8626-0496C5EF6528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{897EEF29-F7CF-4E88-8E58-95352D1F0901}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{B54258E0-A330-40D6-84F7-7AEA94D8E701}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Build", "_Build", "{C4E83C40-C656-4AC2-848B-72345B971A1F}"
+	ProjectSection(SolutionItems) = preProject
+		Default.Properties.props.user = Default.Properties.props.user
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		_build\Solution.config = _build\Solution.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{B677E96B-C6A5-42CD-AA06-1D427F43B22E}"
+	ProjectSection(SolutionItems) = preProject
+		_build\props\_NetFramework.PublishProfile.props = _build\props\_NetFramework.PublishProfile.props
+		_build\props\_NetFramework.References.props = _build\props\_NetFramework.References.props
+		_build\props\_PublishTargetType.props = _build\props\_PublishTargetType.props
+		_build\props\_SitecoreHost.Client.props = _build\props\_SitecoreHost.Client.props
+		_build\props\_TestProject.props = _build\props\_TestProject.props
+		_build\props\Default.Compiler.props = _build\props\Default.Compiler.props
+		_build\props\Default.ProjectContent.props = _build\props\Default.ProjectContent.props
+		_build\props\Default.Properties.props = _build\props\Default.Properties.props
+		_build\props\Default.Publishing.props = _build\props\Default.Publishing.props
+		_build\props\Identity.Publishing.props = _build\props\Identity.Publishing.props
+		_build\props\Identity.References.props = _build\props\Identity.References.props
+		_build\props\Website.DoNotPublishAssemblies.props = _build\props\Website.DoNotPublishAssemblies.props
+		_build\props\Website.Publishing.props = _build\props\Website.Publishing.props
+		_build\props\Website.References.props = _build\props\Website.References.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "targets", "targets", "{9B7B8141-B7B6-4C02-B7D4-50F59BE4F894}"
+	ProjectSection(SolutionItems) = preProject
+		_build\targets\AutoPublish.targets = _build\targets\AutoPublish.targets
+		_build\targets\InvokeWebPublish.targets = _build\targets\InvokeWebPublish.targets
+		_build\targets\PublishSingleItem.targets = _build\targets\PublishSingleItem.targets
+		_build\targets\RemoveNotPublishedAssemblies.targets = _build\targets\RemoveNotPublishedAssemblies.targets
+		_build\targets\TouchConfig.targets = _build\targets\TouchConfig.targets
+		_build\targets\TransformXml.targets = _build\targets\TransformXml.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{21C5DC6A-3FBE-43D3-B564-8F2C19464ADC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecon.Project.Website", "src\Project\Website\code\Sitecon.Project.Website.csproj", "{10740F40-1E23-4C44-8053-6A3864EC6611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10740F40-1E23-4C44-8053-6A3864EC6611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10740F40-1E23-4C44-8053-6A3864EC6611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10740F40-1E23-4C44-8053-6A3864EC6611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10740F40-1E23-4C44-8053-6A3864EC6611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B677E96B-C6A5-42CD-AA06-1D427F43B22E} = {C4E83C40-C656-4AC2-848B-72345B971A1F}
+		{9B7B8141-B7B6-4C02-B7D4-50F59BE4F894} = {C4E83C40-C656-4AC2-848B-72345B971A1F}
+		{21C5DC6A-3FBE-43D3-B564-8F2C19464ADC} = {897EEF29-F7CF-4E88-8E58-95352D1F0901}
+		{10740F40-1E23-4C44-8053-6A3864EC6611} = {21C5DC6A-3FBE-43D3-B564-8F2C19464ADC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FF8FB28-B06B-473A-B81E-89D2E84EBCED}
+	EndGlobalSection
+EndGlobal
