@@ -62,13 +62,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "targets", "targets", "{2E98
 		_build\targets\TransformXml.targets = _build\targets\TransformXml.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{D4090F49-9480-49CD-BAAF-EEA4CCC89C9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecon.Project.Website", "src\Project\Website\code\Sitecon.Project.Website.csproj", "{414AB74F-E33F-4D4D-A886-C19553CCF54A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414AB74F-E33F-4D4D-A886-C19553CCF54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414AB74F-E33F-4D4D-A886-C19553CCF54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414AB74F-E33F-4D4D-A886-C19553CCF54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414AB74F-E33F-4D4D-A886-C19553CCF54A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{730F0EE4-3A01-46C7-BFFA-F97D647AC293} = {95A3DA90-FFA2-47C2-BE5C-F74E699CFA3C}
 		{2E98EFEB-0FAA-4984-8FAD-61D91912C3FC} = {95A3DA90-FFA2-47C2-BE5C-F74E699CFA3C}
+		{D4090F49-9480-49CD-BAAF-EEA4CCC89C9A} = {F6ED5862-8EC9-454F-A47A-4A13D4DD0EB8}
+		{414AB74F-E33F-4D4D-A886-C19553CCF54A} = {D4090F49-9480-49CD-BAAF-EEA4CCC89C9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A747D86-99EC-448E-BCDC-67A57F3AF6EF}
