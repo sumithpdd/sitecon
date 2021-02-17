@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{591700A8-B991-4110-AE63-AEC4BEC5C80C}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\.gitkeep = src\Feature\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{3330E61A-50CE-4F09-8891-66EA65F17CF8}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\.gitkeep = src\Foundation\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{F6ED5862-8EC9-454F-A47A-4A13D4DD0EB8}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\.gitkeep = src\Project\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{34C4EA59-9C11-45F9-8AAC-8383421DA077}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Build", "_Build", "{95A3DA90-FFA2-47C2-BE5C-F74E699CFA3C}"
+	ProjectSection(SolutionItems) = preProject
+		_build\AssemblyBindings.config = _build\AssemblyBindings.config
+		Default.Properties.props.user = Default.Properties.props.user
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{730F0EE4-3A01-46C7-BFFA-F97D647AC293}"
+	ProjectSection(SolutionItems) = preProject
+		_build\props\_NetFramework.PublishProfile.props = _build\props\_NetFramework.PublishProfile.props
+		_build\props\_NetFramework.References.props = _build\props\_NetFramework.References.props
+		_build\props\_SitecoreHost.Client.props = _build\props\_SitecoreHost.Client.props
+		_build\props\_SitecoreRoleType.props = _build\props\_SitecoreRoleType.props
+		_build\props\_TestProject.props = _build\props\_TestProject.props
+		_build\props\Default.Compiler.props = _build\props\Default.Compiler.props
+		_build\props\Default.ProjectContent.props = _build\props\Default.ProjectContent.props
+		_build\props\Default.Properties.props = _build\props\Default.Properties.props
+		_build\props\Default.Publishing.props = _build\props\Default.Publishing.props
+		_build\props\Identity.Publishing.props = _build\props\Identity.Publishing.props
+		_build\props\Identity.References.props = _build\props\Identity.References.props
+		_build\props\Website.Publishing.props = _build\props\Website.Publishing.props
+		_build\props\Website.References.props = _build\props\Website.References.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "targets", "targets", "{2E98EFEB-0FAA-4984-8FAD-61D91912C3FC}"
+	ProjectSection(SolutionItems) = preProject
+		_build\targets\AutoPublish.targets = _build\targets\AutoPublish.targets
+		_build\targets\InvokeWebPublish.targets = _build\targets\InvokeWebPublish.targets
+		_build\targets\PublishSingleItem.targets = _build\targets\PublishSingleItem.targets
+		_build\targets\RemoveFilesFromPublish.targets = _build\targets\RemoveFilesFromPublish.targets
+		_build\targets\TouchConfig.targets = _build\targets\TouchConfig.targets
+		_build\targets\TransformXml.targets = _build\targets\TransformXml.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{730F0EE4-3A01-46C7-BFFA-F97D647AC293} = {95A3DA90-FFA2-47C2-BE5C-F74E699CFA3C}
+		{2E98EFEB-0FAA-4984-8FAD-61D91912C3FC} = {95A3DA90-FFA2-47C2-BE5C-F74E699CFA3C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A747D86-99EC-448E-BCDC-67A57F3AF6EF}
+	EndGlobalSection
+EndGlobal
