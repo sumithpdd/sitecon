@@ -5,5 +5,7 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Sitecore.Kernel" Version="$(SitecoreVersion)" />
+      <PackageReference Include="Sitecore.Mvc" Version="$(SitecoreVersion)" />
+      <PackageReference Include="Sitecore.Mvc.Analytics" Version="$(SitecoreVersion)" />
     </ItemGroup>
 </Project>
