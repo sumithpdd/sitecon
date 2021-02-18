@@ -8,6 +8,7 @@
   <ItemGroup>
     <None Remove="Views\PageContent\BodyCopy.cshtml" />
     <None Remove="Views\PageContent\Shared\_EventDetail.cshtml" />
+    <None Remove="Views\PageContent\TwoImage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\SitecoreHelperExtensions\code\Sitecon.Foundation.SitecoreHelperExtensions.csproj" />
@@ -17,6 +18,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Update="Views\PageContent\Shared\_EventDetail.cshtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Views\PageContent\TwoImage.cshtml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
