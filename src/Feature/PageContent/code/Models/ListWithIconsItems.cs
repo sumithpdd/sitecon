@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sitecon.Feature.PageContent.Models
 {
-  public class ListWithIconsItems
-  {
-    public string ListIcon { get; set; }
-    public List<string> ListItems { get; set; }
-  }
+    public class ListWithIconsItems
+    {
+      public string ListIcon { get; set; }
+      public List<string> ListItems { get; set; }
+    }
 }

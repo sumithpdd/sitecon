@@ -12,10 +12,10 @@ namespace Sitecon.Feature.Navigation
     {
       public static class Fields
       {
-        public static readonly ID Logo = new ID("{97C28A37-998E-4F61-B96D-89F81EBD1347}");
-        public static readonly ID HomeLink = new ID("{5E54968B-18D0-43F2-ACC6-F9FD4DB88666}");
-        public static readonly ID EventsRoot = new ID("{84922A7D-BA36-4F04-82BF-714A8530E041}");
-        public static readonly ID ScheduleLink = new ID("{386F6CD4-B8E0-42FB-8D89-0F43B5709B76}");
+        public static readonly ID Logo = new ID("{4E1A039B-E80C-41F4-A05A-B21C6249FD98}");
+        public static readonly ID HomeLink = new ID("{6C6D496B-A562-4DBA-9B9A-4C970459C236}");
+        public static readonly ID EventsRoot = new ID("{B90408A2-EF93-42F0-9531-5FE68956A64B}");
+        public static readonly ID ScheduleLink = new ID("{A6663CCC-7D14-4F7F-A26B-69A41A370EB5}");
       }
     }
 
@@ -23,12 +23,12 @@ namespace Sitecon.Feature.Navigation
     {
       public static class Fields
       {
-        public static readonly ID FooterTextLeft = new ID("{3086D63C-82BB-4F4F-B13C-576B6C1F9093}");
-        public static readonly ID FooterLinkLeft = new ID("{40DE43D1-3318-44EC-AB75-167D0EC3A852}");
-        public static readonly ID FooterLinkTextLeft = new ID("{3D73C0D7-32C9-4EE7-9531-7E4E07B2629B}");
-        public static readonly ID FooterTextRight = new ID("{3D74911C-1DAE-4D5D-A6F5-71101122288D}");
-        public static readonly ID FooterLinkRight = new ID("{5D3950A4-0A99-4215-9BD7-19FB101C0FEE}");
-        public static readonly ID FooterLinkTextRight = new ID("{089A2D9D-F54B-41D8-BE91-5E792E2BCB76}");
+        public static readonly ID FooterTextLeft = new ID("{911C6C67-F72B-4ECE-8DEB-5683204CCCAF}");
+        public static readonly ID FooterLinkLeft = new ID("{2AF92090-AACB-4D8C-AD61-61EB07CBB410}");
+        public static readonly ID FooterLinkTextLeft = new ID("{39ACA2C8-CC87-4FCE-A3A4-888ED68AE4B2}");
+        public static readonly ID FooterTextRight = new ID("{107C9AF2-7938-4289-A758-5B52F2CB94B9}");
+        public static readonly ID FooterLinkRight = new ID("{15405AE3-C7B9-4A35-B0EE-9A1CC41F6F09}");
+        public static readonly ID FooterLinkTextRight = new ID("{FB634D5C-7547-4A7A-9947-3D616D9B28E1}");
       }
     }
   }

@@ -8,45 +8,57 @@ namespace Sitecon.Feature.PageContent
 {
   public static class Templates
   {
-
     public static class BodyCopy
     {
-
       public static class Fields
       {
-
-        public static readonly ID BodyCopy = new ID("{47630014-446B-41C0-93E9-5E735B641BB2}");
+        public static readonly ID BodyCopy = new ID("{BF336B27-849C-43F7-9EA7-279AC081FA7E}");
       }
     }
 
     public static class TwoImage
     {
-
       public static class Fields
       {
-
-        public static readonly ID Image1 = new ID("{B36C861E-06AF-44C7-B0E0-0536949DA198}");
-        public static readonly ID Image2 = new ID("{64D049B7-6A1C-42FC-8392-2B4BA11139C9}");
+        public static readonly ID Image1 = new ID("{F8BA62DE-D51C-48C7-A1FE-1FF8C7F274B6}");
+        public static readonly ID Image2 = new ID("{9B9E9AFC-BC6B-4BD5-BB16-351030223DAD}");
       }
     }
+
     public static class TitleAndText
     {
       public static class Fields
       {
-
-        public static readonly ID ComponentTitle = new ID("{432FFD44-AC0D-4824-8A9D-6EC988C8998E}");
-        public static readonly ID ComponentText = new ID("{B36D1856-D7C8-4982-9F08-9412835D05B8}");
+        public static readonly ID ComponentTitle = new ID("{066248B8-F289-4049-BE0F-843CE9045678}");
+        public static readonly ID ComponentText = new ID("{4B8A82EE-545A-467F-AB0D-AA07194110EB}");
       }
     }
+
     public static class ListWithIcons
     {
       public static class Fields
       {
+        public static readonly ID ListIcon = new ID("{C31EB179-4A7F-4B82-90DD-6C4AECF53580}");
+        public static readonly ID ListText = new ID("{BD997699-CD59-46AD-8ECE-CF51A20B4210}");
+      }
+    }
 
-        public static readonly ID ListIcon = new ID("{B2B900A3-2BE2-48BC-906F-06E208F96415}");
-        public static readonly ID ListText = new ID("{29547E07-731F-4D7D-A5A6-267C9870D81C}");
+    public static class Hero
+    {
+      public static class Fields
+      {
+        public static readonly ID HeroBackgroundImage = new ID("{D8B32A62-7CD4-4AFB-89D6-A3E3A97C4632}");
+        public static readonly ID HeroTitle = new ID("{21625D95-4C9E-458C-9436-7588E444A99E}");
+        public static readonly ID HeroSubtitle = new ID("{1F7BA84F-C51E-4E00-97BB-6AF81226E099}");
+      }
+    }
+
+    public static class YouTubeVideo
+    {
+      public static class Fields
+      {
+        public static readonly ID YouTubeVideoId = new ID("{DF7F0F3E-CE3A-407E-9F09-30E80C7B98CD}");
       }
     }
   }
-  
 }

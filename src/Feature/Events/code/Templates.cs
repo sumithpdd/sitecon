@@ -12,13 +12,13 @@ namespace Sitecon.Feature.Events
     {
       public static class Fields
       {
-        public static readonly ID SpeakerName = new ID("{34A4E2AF-45EB-4727-9617-8AB2E6B7F3C6}");
-        public static readonly ID SpeakerTitle = new ID("{93A6A0F5-BBB0-48D6-B5EA-4A8C89939D4A}");
-        public static readonly ID SpeakerImage = new ID("{0C3569EA-97CD-470E-AC6F-B4B419636DB2}");
-        public static readonly ID SpeakerDescription = new ID("{4106E3C9-7841-401A-A942-CFD0C2E44048}");
-        public static readonly ID SpeakerTwitterUrl = new ID("{F60B573E-0A45-418D-9B32-21131E001674}");
-        public static readonly ID SpeakerLinkedInUrl = new ID("{680C5DE2-64C4-47D2-A92A-8F830F33DF7E}");
-        public static readonly ID SpeakerWebsiteUrl = new ID("{3CD15B30-D115-42D7-AAF9-60CB213F235D}");
+        public static readonly ID SpeakerName = new ID("{0B9D42C9-0704-45D3-AC29-0C4E65616E0A}");
+        public static readonly ID SpeakerTitle = new ID("{E5F6B2FB-4CCF-43D5-8238-7A247EBFF403}");
+        public static readonly ID SpeakerImage = new ID("{15F42F66-9EC6-44E1-8B65-39A61AE704CC}");
+        public static readonly ID SpeakerDescription = new ID("{D628FB26-37BD-4E8C-B8DE-99C78023B349}");
+        public static readonly ID SpeakerTwitterUrl = new ID("{DB84959B-20DF-4371-A5D3-77A221B3E7BC}");
+        public static readonly ID SpeakerLinkedInUrl = new ID("{B5A3C8E7-F756-4072-87DA-DCB716C0AA0E}");
+        public static readonly ID SpeakerWebsiteUrl = new ID("{9FB095EA-E113-4A5F-9F31-68DAF0C646AD}");
       }
     }
 
@@ -26,21 +26,21 @@ namespace Sitecon.Feature.Events
     {
       public static class Fields
       {
-        public static readonly ID FeaturedSpeakersTitle = new ID("{C7BCCDA6-00D1-4F8F-B807-DAAA575A6B20}");
-        public static readonly ID FeaturedSpeakersText = new ID("{CEF04141-C63A-4BD6-B6D7-097D7752D978}");
-        public static readonly ID FeaturedSpeaker = new ID("{92477C30-C29C-43B4-B72D-620F873C6D18}");
-        public static readonly ID FeaturedSpeakersList = new ID("{58499065-29A1-47E0-A7B1-9AEE1558CAD5}");
+        public static readonly ID FeaturedSpeakersTitle = new ID("{136A0B0F-7DB7-41B4-9352-83F016CF2AB2}");
+        public static readonly ID FeaturedSpeakersText = new ID("{004AD12F-26B7-4DE2-84D4-B44CFF562C7F}");
+        public static readonly ID FeaturedSpeaker = new ID("{6F2F3C31-C65D-4F8E-A516-2477A8BF8F96}");
+        public static readonly ID FeaturedSpeakersList = new ID("{165D2CF2-D3BA-4033-9401-A4463BAAB010}");
       }
-    }
+    }    
 
     public static class Event
     {
       public static class Fields
       {
-        public static readonly ID EventName = new ID("{02FF2A17-C67D-47D2-8529-1904421FF30A}");
-        public static readonly ID EventDate = new ID("{CCF84195-4501-477B-AA17-3A3D5216551E}");
-        public static readonly ID IsFeaturedEvent = new ID("{CA184CCB-ACD9-4206-9103-72829926AB4C}");
-        public static readonly ID EventSpeakers = new ID("{103864C1-8977-47BF-B841-17DE7E63A962}");
+        public static readonly ID EventName = new ID("{987747E5-0E68-485F-9BE9-01DA36FAB624}");
+        public static readonly ID EventDate = new ID("{F5167D16-A419-43D9-8A18-CE16AB1E3C5D}");
+        public static readonly ID IsFeaturedEvent = new ID("{BBCEA4F9-AAD6-45ED-B7E6-02E6A6AF8FCC}");
+        public static readonly ID EventSpeakers = new ID("{3E305C26-AB5C-4DBA-9396-1E4D1FDF4A05}");
       }
     }
 
@@ -48,16 +48,16 @@ namespace Sitecon.Feature.Events
     {
       public static class Fields
       {
-        public static readonly ID EventScheduleBackground = new ID("{9E696815-15C5-447E-B553-798026571682}");
-        public static readonly ID EventScheduleTitle = new ID("{387E817C-7905-420C-A46A-1E6A72F9AD3E}");
-        public static readonly ID EventScheduleDay1Title = new ID("{A337B110-5DF5-44AC-8908-89B0C4644529}");
-        public static readonly ID EventScheduleDay1Date = new ID("{67D41E4F-3DB0-431C-8A54-A2C0E11AE6E6}");
-        public static readonly ID EventScheduleDay1Location = new ID("{31BAAAB1-57E6-4AFE-986C-7404417F636E}");
-        public static readonly ID EventScheduleDay1Events = new ID("{8C47FC40-FEC7-444C-AE72-5C5EFBBE7385}");
-        public static readonly ID EventScheduleDay2Title = new ID("{4EE1A979-F7E4-4A70-ACC0-E8005C474B18}");
-        public static readonly ID EventScheduleDay2Date = new ID("{9BA67514-E892-42C5-8B38-BB6F5ADEDC10}");
-        public static readonly ID EventScheduleDay2Location = new ID("{3F3B4B37-E682-40CF-9CCF-2B6F566FD5FF}");
-        public static readonly ID EventScheduleDay2Events = new ID("{7087C150-191B-45D2-A021-096298222365}");
+        public static readonly ID EventScheduleBackground = new ID("{8374BADF-B092-468E-B3A3-2F3B75BB2D22}");
+        public static readonly ID EventScheduleTitle = new ID("{6C66E533-DB9B-487A-B660-DDE870F9C3D0}");
+        public static readonly ID EventScheduleDay1Title = new ID("{2792206F-7AB3-4630-9BF4-F28CFF31252F}");
+        public static readonly ID EventScheduleDay1Date = new ID("{D26FFAB7-9D1C-4D93-85D5-B7A5C11E5C43}");
+        public static readonly ID EventScheduleDay1Location = new ID("{4B1321CA-7A2C-4AD6-8483-C15A44352139}");
+        public static readonly ID EventScheduleDay1Events = new ID("{C7A352AA-E9A4-42F5-B44F-792D9E12387A}");
+        public static readonly ID EventScheduleDay2Title = new ID("{30EA679A-9475-4248-A4E7-2F6F1EF1008A}");
+        public static readonly ID EventScheduleDay2Date = new ID("{42D9F9B5-EF63-45D0-8DAD-74AE5B1399EE}");
+        public static readonly ID EventScheduleDay2Location = new ID("{5E4512E1-BDBA-421E-A21A-FF79423B14A0}");
+        public static readonly ID EventScheduleDay2Events = new ID("{DCCCB95E-ED83-4F1B-970E-45569D83C379}");
       }
     }
   }
