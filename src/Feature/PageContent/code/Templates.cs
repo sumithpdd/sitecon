@@ -31,12 +31,20 @@ namespace Sitecon.Feature.PageContent
     }
     public static class TitleAndText
     {
-
       public static class Fields
       {
 
         public static readonly ID ComponentTitle = new ID("{432FFD44-AC0D-4824-8A9D-6EC988C8998E}");
         public static readonly ID ComponentText = new ID("{B36D1856-D7C8-4982-9F08-9412835D05B8}");
+      }
+    }
+    public static class ListWithIcons
+    {
+      public static class Fields
+      {
+
+        public static readonly ID ListIcon = new ID("{B2B900A3-2BE2-48BC-906F-06E208F96415}");
+        public static readonly ID ListText = new ID("{29547E07-731F-4D7D-A5A6-267C9870D81C}");
       }
     }
   }
