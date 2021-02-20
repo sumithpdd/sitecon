@@ -89,6 +89,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{FA82A9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecon.Feature.Events", "src\Feature\Events\code\Sitecon.Feature.Events.csproj", "{1A442D32-7D45-413D-B9A1-CFCE05C8F5B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BranchPresets", "BranchPresets", "{CB524C9E-E6D3-44AE-9832-0BF85C7B1E56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sitecon.Foundation.BranchPresets", "src\Foundation\BranchPresets\code\Sitecon.Foundation.BranchPresets.csproj", "{38CF6B47-DB47-40A4-AEB2-2F783FFCEA1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +123,10 @@ Global
 		{1A442D32-7D45-413D-B9A1-CFCE05C8F5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A442D32-7D45-413D-B9A1-CFCE05C8F5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A442D32-7D45-413D-B9A1-CFCE05C8F5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CF6B47-DB47-40A4-AEB2-2F783FFCEA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CF6B47-DB47-40A4-AEB2-2F783FFCEA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CF6B47-DB47-40A4-AEB2-2F783FFCEA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CF6B47-DB47-40A4-AEB2-2F783FFCEA1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +146,8 @@ Global
 		{8BE001EC-8D53-41D3-90E4-E442193DE2F2} = {AC0F1692-7778-498E-830F-F06637FD93B2}
 		{FA82A945-8783-440E-91E2-66E1DAF85504} = {591700A8-B991-4110-AE63-AEC4BEC5C80C}
 		{1A442D32-7D45-413D-B9A1-CFCE05C8F5B6} = {FA82A945-8783-440E-91E2-66E1DAF85504}
+		{CB524C9E-E6D3-44AE-9832-0BF85C7B1E56} = {3330E61A-50CE-4F09-8891-66EA65F17CF8}
+		{38CF6B47-DB47-40A4-AEB2-2F783FFCEA1E} = {CB524C9E-E6D3-44AE-9832-0BF85C7B1E56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A747D86-99EC-448E-BCDC-67A57F3AF6EF}

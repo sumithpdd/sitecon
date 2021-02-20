@@ -56,5 +56,23 @@ namespace Sitecon.Feature.Events.Helpers
 
       return eventList;
     }
+
+    public Speaker GetFeaturedSpeaker(Item item)
+    {
+      Speaker featuredSpeaker = new Speaker();
+
+      Item featuredSpeakerItem = Sitecore.Context.Database.GetItem(item.ID);
+      if (featuredSpeakerItem != null)
+      {
+        LinkField featuredSpeakerTwitterLink = featuredSpeakerItem.Fields[Templates.Speaker.Fields.SpeakerTwitterUrl];
+        featuredSpeaker.SpeakerTwitterUrl = featuredSpeakerTwitterLink.Url;
+        LinkField featuredSpeakerLinkedInLink = featuredSpeakerItem.Fields[Templates.Speaker.Fields.SpeakerLinkedInUrl];
+        featuredSpeaker.SpeakerLinkedInUrl = featuredSpeakerLinkedInLink.Url;
+        LinkField featuredSpeakerWebsiteLink = featuredSpeakerItem.Fields[Templates.Speaker.Fields.SpeakerWebsiteUrl];
+        featuredSpeaker.SpeakerWebsiteUrl = featuredSpeakerWebsiteLink.Url;
+      }
+
+      return featuredSpeaker;
+    }
   }
 }

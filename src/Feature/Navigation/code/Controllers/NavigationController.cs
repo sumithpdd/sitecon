@@ -1,4 +1,5 @@
-﻿using Sitecore.Mvc.Presentation;
+﻿using Sitecore.Diagnostics;
+using Sitecore.Mvc.Presentation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,10 +22,7 @@ namespace Sitecon.Feature.Navigation.Controllers
       }
 
       var dataSourceId = RenderingContext.CurrentOrNull.Rendering.DataSource;
-      if (string.IsNullOrEmpty(dataSourceId))
-      {
-        return null;
-      }
+      Assert.IsNotNullOrEmpty(dataSourceId, "dataSourceId is null or empty");
       var item = Sitecore.Context.Database.GetItem(dataSourceId);
       if (item == null)
       {
@@ -37,7 +35,7 @@ namespace Sitecon.Feature.Navigation.Controllers
       ImageField logo = item.Fields[Templates.Header.Fields.Logo];
       if (logo != null && logo.MediaItem != null)
       {
-        MediaItem image = new MediaItem(logo.MediaItem);
+        Sitecore.Data.Items.MediaItem image = new Sitecore.Data.Items.MediaItem(logo.MediaItem);
         header.ImageUrl = Sitecore.StringUtil.EnsurePrefix('/', Sitecore.Resources.Media.MediaManager.GetMediaUrl(image));
         header.ImageAlt = image.Alt;
       }
@@ -58,7 +56,6 @@ namespace Sitecon.Feature.Navigation.Controllers
         navigationItem.ItemUrl = i != null
           ? Sitecore.Links.LinkManager.GetItemUrl(i)
           : string.Empty;
-
         header.Events.Add(navigationItem);
       }
 
@@ -67,6 +64,9 @@ namespace Sitecon.Feature.Navigation.Controllers
       header.ScheduleLinkUrl = scheduleLink != null
         ? string.Format("{0}#{1}", Sitecore.Links.LinkManager.GetItemUrl(scheduleLink.TargetItem), scheduleLink.Anchor)
         : string.Empty;
+
+      //Setting IsExperienceEditor
+      header.IsExperienceEditor = Sitecore.Context.PageMode.IsExperienceEditor;
 
       return View(header);
     }
@@ -79,10 +79,7 @@ namespace Sitecon.Feature.Navigation.Controllers
       }
 
       var dataSourceId = RenderingContext.CurrentOrNull.Rendering.DataSource;
-      if (string.IsNullOrEmpty(dataSourceId))
-      {
-        return null;
-      }
+      Assert.IsNotNullOrEmpty(dataSourceId, "dataSourceId is null or empty");
       var item = Sitecore.Context.Database.GetItem(dataSourceId);
       if (item == null)
       {
@@ -94,7 +91,7 @@ namespace Sitecon.Feature.Navigation.Controllers
       //Left Text
       footer.FooterTextLeft = item.Fields[Templates.Footer.Fields.FooterTextLeft].Value;
 
-      //Left Link - General Link with Search Field
+      //Left link - General Link with Search Field
       LinkField leftLink = item.Fields[Templates.Footer.Fields.FooterLinkLeft];
       footer.FooterLinkUrlLeft = leftLink != null && leftLink.TargetItem != null
         ? string.Format("{0}#{1}", Sitecore.Links.LinkManager.GetItemUrl(leftLink.TargetItem), leftLink.Anchor)
